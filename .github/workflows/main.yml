@@ -10,5 +10,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          comment: "Check out this message!"
+          msg: "Check out this message!"
           check_for_duplicate_msg: false  # OPTIONAL 
