@@ -1,2 +1,2 @@
 # github-actions-lab
-Lab for learning guthub actions 
+Lab for learning github actions 
