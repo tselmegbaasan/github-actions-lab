@@ -1,0 +1,14 @@
+name: comment-on-pr 
+on: pull_request
+jobs:
+  comment-pr:
+    name: comment
+    runs-on: ubuntu-latest
+    steps:
+      - name: comment PR
+        uses: unsplash/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          comment: "Check out this message!"
+          check_for_duplicate_msg: false  # OPTIONAL 
